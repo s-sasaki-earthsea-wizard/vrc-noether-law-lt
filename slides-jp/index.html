@@ -136,7 +136,7 @@ $$ mgh = \frac{1}{2}mV^2 \Rightarrow V = -\sqrt{2gh} $$
 
 </div>
 
-<div class="caption">負になるのは$q$軸の逆方向だから</div>
+<div class="caption">負になるのは鉛直上向きを正とした$q$軸の逆方向だから</div>
 
 ---
 
@@ -151,7 +151,7 @@ $$ mgh = \frac{1}{2}mV^2 \Rightarrow V = -\sqrt{2gh} $$
 <div class="simple-box">
 
 * **自由落下の結果は時間に依存しない**
-  * 高さ$h$から物体を落とした時、地面に衝突する時の速度$v$は
+  * 高さ$h$から物体を落とした時、地面に衝突する時の速度$V$は
     * 今日の0時に落としても
 	* 明日の12時に落としても
   * **時間によらず結果は変わらない！**
@@ -179,8 +179,6 @@ $$ mgh = \frac{1}{2}mV^2 \Rightarrow V = -\sqrt{2gh} $$
 * **自由落下の結果は鉛直方向の変化によって変わる**
 	* 高さ$h + \delta h $から物体を落とした時
 	  * $V = -\sqrt{2g(h + \delta h)}$
-	* 高さ$h - \delta h $から物体を落とした時
-	  * $V = -\sqrt{2g(h - \delta h)}$
 	* **高さによって位置エネルギーが変化し、速度が変わる！**
 
 </div>
@@ -189,7 +187,9 @@ $$ mgh = \frac{1}{2}mV^2 \Rightarrow V = -\sqrt{2gh} $$
 
 <div class="highlight-box">
 
-* **自由落下運動は鉛直方向の移動に対して対称性が破れる**
+* **重力によって空間は鉛直方向に一様ではない**
+  * 高さによって位置エネルギーが変化する
+  * 鉛直方向の並進対称性が破れている
 
 </div>
 
@@ -459,7 +459,7 @@ $$ \dot{q} \frac{\partial L}{\partial \dot{q}} - L = \text{時間変化に対し
 * この時間変化に対して不変な量$ \dot{q} \frac{\partial L}{\partial \dot{q}} - L $をエネルギーと呼ぶ！
 
 $$ \dot{q} \frac{\partial L}{\partial \dot{q}} - L $$
-$$= \dot{q} \frac{\partial}{\partial \dot{q}}\left( \frac{1}{2}m\dot{q}^2 - mgq \right) - \left(\frac{1}{2}m\dot{q}^2 - mgq \right)$$
+$$= \dot{q} \frac{\partial}{\partial \dot{q}}\left( \frac{1}{2}m\dot{q}^2 - \cancel{mgq} \right) - \left(\frac{1}{2}m\dot{q}^2 - mgq \right)$$
 $$= \frac{1}{2}m\dot{q}^2 + mgq = \text{エネルギー}$$
 
 </div>
@@ -474,7 +474,7 @@ $$ L = \frac{1}{2}m\dot{q}^2 - mgq $$
 
 * $L$は時間$t$によって変化しない
 * 高さ$q$の変化によって$L$も変化する
-* 時間対称性から保存量が得られる
+* 時間並進対称性から保存量が得られる
   * この保存量がエネルギーである！
 
 </div>
@@ -529,8 +529,8 @@ $$ Q = \frac{\partial L}{\partial \dot{q}} \cdot \delta q = \text{一定} $$
 <div class="simple-box">
 
 * **運動量保存則**
-  * 空間対称性 $\frac{\partial L}{\partial q} = 0$が成り立つ時
-  * 運動量 $p = \sum_i m\dot{q_i}$ が保存される
+  * 空間並進対称性 $\frac{\partial L}{\partial q} = 0$が成り立つ時
+  * 運動量 $p = \frac{\partial L}{\partial \dot{q}} = m\dot{q}$ が保存される
 
 </div>
 
