@@ -13,6 +13,7 @@ node_modules/
 # video files
 *.mp4
 /media
+scripts/media/*
 
 # __pycache__
 __pycache__
