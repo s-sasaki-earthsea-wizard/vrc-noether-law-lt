@@ -9,11 +9,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-from matplotlib.patches import Rectangle, Circle
+from matplotlib.patches import Rectangle, Ellipse
 
 # 物理定数
 g = 9.8  # 重力加速度 [m/s²]
-h0 = 10.0  # 初期高さ [m]
+h0 = 200.0  # 初期高さ [m]
 m = 1.0  # 質量 [kg]（mは計算でキャンセルされるが、明示的に設定）
 
 # 全エネルギー（保存される）
@@ -36,8 +36,8 @@ ax = fig.add_subplot(111, facecolor='black')
 
 # 軸の設定
 ax.set_xlim(0, 10)
-ax.set_ylim(-1, 12)
-ax.set_aspect('equal')
+ax.set_ylim(-10, 220)
+ax.set_aspect('auto')
 ax.axis('off')
 
 # 地面の描画（y=0の位置）
@@ -49,14 +49,21 @@ for i in range(8):
     hatch = plt.Line2D([0.5 + i*0.4, 0.7 + i*0.4], [0, -0.3], color='white', linewidth=1)
     ax.add_line(hatch)
 
-# 質点（円）
-particle = Circle((2, h0), 0.2, color='yellow', zorder=10)
+# 質点（楕円で描画し、表示上は真円に見せる）
+# アスペクト比の補正係数を計算
+fig_width, fig_height = fig.get_size_inches()
+x_range = 10  # ax.set_xlim(0, 10)
+y_range = 230  # ax.set_ylim(-10, 220)
+aspect_correction = (fig_width / x_range) / (fig_height / y_range)
+particle_radius = 4.0  # 表示上の半径（y軸基準）
+particle = Ellipse((2, h0), width=particle_radius * 2 / aspect_correction,
+                   height=particle_radius * 2, color='yellow', zorder=10)
 ax.add_patch(particle)
 
 # エネルギーバーの位置設定
 bar_x = 7.0
 bar_width = 1.5
-bar_max_height = 10.0  # バーの最大高さ（h0に対応）
+bar_max_height = 200.0  # バーの最大高さ（h0に対応）
 
 # 位置エネルギーバー（青）
 potential_bar = Rectangle((bar_x, 0), bar_width, bar_max_height,
@@ -86,9 +93,31 @@ reference_line = plt.Line2D([0.5, 3.5], [h0, h0],
                            color='gray', linewidth=1, linestyle='--', alpha=0.5)
 ax.add_line(reference_line)
 
+# 単位時間ごとの位置マーカー（加速運動の可視化）
+marker_interval = 0.2  # 秒
+marker_times = np.arange(0, t_fall + marker_interval, marker_interval)
+marker_radius = 2.0  # マーカーの半径（y軸基準）
+
+# マーカーを事前に作成（非表示状態で）
+markers = []
+marker_heights = []
+for t in marker_times:
+    h_marker = h0 - 0.5 * g * t**2
+    if h_marker >= 0:
+        marker = Ellipse((2, h_marker),
+                        width=marker_radius * 2 / aspect_correction,
+                        height=marker_radius * 2,
+                        color='white', alpha=0.0, zorder=5)  # 最初は非表示
+        ax.add_patch(marker)
+        markers.append(marker)
+        marker_heights.append(h_marker)
+
 def init():
     """アニメーションの初期化"""
-    return particle, potential_bar, kinetic_bar
+    # マーカーを非表示にリセット
+    for marker in markers:
+        marker.set_alpha(0.0)
+    return [particle, potential_bar, kinetic_bar] + markers
 
 def animate(frame):
     """各フレームの更新"""
@@ -112,7 +141,7 @@ def animate(frame):
     K_height = (K / E_total) * bar_max_height
 
     # 質点の位置更新
-    particle.center = (2, h)
+    particle.set_center((2, h))
 
     # 位置エネルギーバーの更新（下から積む）
     potential_bar.set_height(U_height)
@@ -121,7 +150,12 @@ def animate(frame):
     kinetic_bar.set_y(U_height)
     kinetic_bar.set_height(K_height)
 
-    return particle, potential_bar, kinetic_bar
+    # マーカーの表示更新（質点が通過したら表示）
+    for i, marker_h in enumerate(marker_heights):
+        if h <= marker_h:
+            markers[i].set_alpha(0.3)
+
+    return [particle, potential_bar, kinetic_bar] + markers
 
 # アニメーションの作成
 anim = animation.FuncAnimation(fig, animate, init_func=init,
