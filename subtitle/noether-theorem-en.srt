@@ -1,0 +1,588 @@
+1
+00:00:00,640 --> 00:00:08,180
+When you drop two balls from the same height, they always hit the ground at the same speed, right?
+
+2
+00:00:09,540 --> 00:00:15,980
+This is a phenomenon that seems obvious, as demonstrated in Galileo's time.
+
+3
+00:00:16,939 --> 00:00:28,460
+This can be derived from the law of conservation of energy, which states that the sum of potential energy and kinetic energy is always constant.
+
+4
+00:00:29,940 --> 00:00:33,820
+But why is energy conserved?
+
+5
+00:00:35,040 --> 00:00:41,500
+Since it's called a law, it might seem like something that's just taken for granted in physics.
+
+6
+00:00:42,920 --> 00:00:52,640
+Actually, hidden behind this obvious fact lies symmetry, one of the most important concepts in physics.
+
+7
+00:00:53,840 --> 00:00:58,520
+Noether's theorem, which connects symmetry and conservation laws.
+
+8
+00:00:59,220 --> 00:01:01,460
+Let's explore it together.
+
+9
+00:01:04,159 --> 00:01:06,340
+The answer to this question comes from
+
+10
+00:01:06,800 --> 00:01:11,320
+Noether's theorem, discovered by mathematician Emmy Noether.
+
+11
+00:01:12,380 --> 00:01:16,300
+What Noether discovered can be expressed in just one sentence.
+
+12
+00:01:16,980 --> 00:01:20,860
+Yet it's a revolutionary and fundamental theorem.
+
+13
+00:01:21,780 --> 00:01:24,460
+Where there is symmetry, there is a conservation law.
+
+14
+00:01:25,200 --> 00:01:27,200
+That might not make sense just yet.
+
+15
+00:01:28,320 --> 00:01:31,420
+Let's now unravel the meaning of this theorem
+
+16
+00:01:32,070 --> 00:01:34,840
+using free fall, the simplest example.
+
+17
+00:01:35,560 --> 00:01:37,780
+Let's start with an experiment.
+
+18
+00:01:38,380 --> 00:01:42,480
+We place a ball at height H above the ground.
+
+19
+00:01:43,680 --> 00:01:47,340
+During the fall, two types of energy are changing.
+
+20
+00:01:48,439 --> 00:01:50,180
+First, potential energy.
+
+21
+00:01:50,880 --> 00:01:55,000
+The higher something is, the more potential energy it has.
+
+22
+00:01:55,980 --> 00:01:58,600
+In formula, it's mgh.
+
+23
+00:02:00,319 --> 00:02:02,080
+And then kinetic energy.
+
+24
+00:02:02,900 --> 00:02:06,080
+The faster something moves, the more energy it has.
+
+25
+00:02:06,980 --> 00:02:10,979
+In formula, it's ½mv².
+
+26
+00:02:12,540 --> 00:02:15,480
+As it falls, potential energy decreases
+
+27
+00:02:15,940 --> 00:02:18,000
+and kinetic energy increases.
+
+28
+00:02:19,020 --> 00:02:22,840
+But the sum of these two always remains constant.
+
+29
+00:02:24,300 --> 00:02:30,120
+The sum of potential energy and kinetic energy doesn't change during motion.
+
+30
+00:02:31,120 --> 00:02:33,520
+This is the law of conservation of energy.
+
+31
+00:02:35,040 --> 00:02:41,340
+When it hits the ground, potential energy becomes zero and all of it becomes kinetic energy.
+
+32
+00:02:42,620 --> 00:02:47,300
+At this point, the velocity can be calculated as √2gh.
+
+33
+00:02:48,600 --> 00:02:52,100
+But why is energy conserved?
+
+34
+00:02:53,080 --> 00:02:55,580
+This is where today's main topic begins.
+
+35
+00:02:57,300 --> 00:03:01,660
+Let's think about a simple but important fact.
+
+36
+00:03:02,880 --> 00:03:06,360
+Let's drop this ball at midnight today.
+
+37
+00:03:07,300 --> 00:03:11,000
+The velocity when it hits the ground is √2gh.
+
+38
+00:03:12,420 --> 00:03:14,740
+What about tomorrow at 6 AM?
+
+39
+00:03:15,940 --> 00:03:18,240
+Needless to say, the result is the same.
+
+40
+00:03:18,940 --> 00:03:21,960
+No matter what time you do the experiment, the result doesn't change.
+
+41
+00:03:23,040 --> 00:03:26,240
+The result is unaffected by when you do it.
+
+42
+00:03:27,140 --> 00:03:29,240
+This is time symmetry.
+
+43
+00:03:30,500 --> 00:03:36,300
+Using slightly more technical language, "getting the same result no matter when"
+
+44
+00:03:36,960 --> 00:03:41,040
+can be described as being symmetric with respect to time.
+
+45
+00:03:41,780 --> 00:03:44,900
+You might think that's obvious.
+
+46
+00:03:45,940 --> 00:03:53,440
+But Noether's theorem tells us that this time symmetry is what gives rise to energy conservation.
+
+47
+00:03:55,280 --> 00:03:58,140
+The result was the same no matter when we changed the time.
+
+48
+00:03:59,620 --> 00:04:02,420
+What happens if we change the height?
+
+49
+00:04:03,960 --> 00:04:09,060
+When dropped from height H, the velocity was √2gh.
+
+50
+00:04:10,500 --> 00:04:16,100
+If dropped from a slightly higher position, the velocity when hitting the ground increases slightly.
+
+51
+00:04:16,940 --> 00:04:21,320
+Wait, the result changes when the height is different?
+
+52
+00:04:22,300 --> 00:04:26,580
+That means there's no symmetry in the vertical direction.
+
+53
+00:04:27,640 --> 00:04:28,260
+Why is that?
+
+54
+00:04:29,520 --> 00:04:32,160
+It's because of Earth's gravity.
+
+55
+00:04:32,860 --> 00:04:37,800
+Earth's gravity changes potential energy depending on height.
+
+56
+00:04:38,500 --> 00:04:42,320
+So space is not uniform in the vertical direction.
+
+57
+00:04:43,680 --> 00:04:45,300
+But wait a moment.
+
+58
+00:04:46,320 --> 00:04:48,920
+Let's shift the ball horizontally.
+
+59
+00:04:50,020 --> 00:04:53,920
+Since gravity acts uniformly straight down,
+
+60
+00:04:54,560 --> 00:04:57,460
+the result of the fall doesn't change when shifted sideways.
+
+61
+00:04:58,500 --> 00:05:02,139
+This means there is symmetry in the horizontal direction.
+
+62
+00:05:03,300 --> 00:05:08,360
+Gravity breaks the spatial symmetry in the vertical direction.
+
+63
+00:05:09,160 --> 00:05:15,000
+And in directions without symmetry, there is no corresponding conservation law.
+
+64
+00:05:15,900 --> 00:05:21,340
+Conversely, conservation laws arise where there is symmetry.
+
+65
+00:05:22,380 --> 00:05:25,740
+Now let's organize what we've learned so far.
+
+66
+00:05:27,060 --> 00:05:31,600
+In free fall, the result is the same no matter when you drop it.
+
+67
+00:05:32,240 --> 00:05:42,260
+That is, there is time symmetry. And the sum of potential energy and kinetic energy is constant.
+
+68
+00:05:43,419 --> 00:05:52,580
+How are these two facts connected? Noether's theorem explains this.
+
+69
+00:05:53,840 --> 00:05:59,660
+We'll use a little math, but I'll explain it so you can grasp just the concept.
+
+70
+00:06:01,000 --> 00:06:06,620
+To arrive at Noether's theorem, let's introduce a function called the Lagrangian.
+
+71
+00:06:07,860 --> 00:06:12,780
+This Lagrangian contains all the information about an object's motion.
+
+72
+00:06:14,140 --> 00:06:18,980
+Skipping the derivation, the Lagrangian is calculated as follows.
+
+73
+00:06:20,300 --> 00:06:24,520
+T is kinetic energy, V is potential energy.
+
+74
+00:06:25,800 --> 00:06:30,040
+The Lagrangian L is the difference between these two energies.
+
+75
+00:06:31,660 --> 00:06:34,220
+You might wonder why subtraction?
+
+76
+00:06:35,220 --> 00:06:39,100
+For today, think of it as a convenient function that calculates
+
+77
+00:06:39,670 --> 00:06:44,040
+the difference between kinetic and potential energy to describe motion.
+
+78
+00:06:45,580 --> 00:06:51,000
+Once the Lagrangian is determined, we can calculate exactly how an object moves.
+
+79
+00:06:52,480 --> 00:06:55,459
+Let's look at the Lagrangian for free fall.
+
+80
+00:06:56,780 --> 00:07:02,840
+As the ball falls, you can see how the value of this Lagrangian L changes.
+
+81
+00:07:04,560 --> 00:07:09,980
+But how does the Lagrangian connect to the object's motion?
+
+82
+00:07:11,300 --> 00:07:17,240
+I said that once the Lagrangian is determined, we can calculate exactly how an object moves.
+
+83
+00:07:17,990 --> 00:07:25,500
+What connects the Lagrangian to motion is an equation called the Euler-Lagrange equation.
+
+84
+00:07:26,500 --> 00:07:30,240
+It looks a bit complex, but we won't go deep into it today.
+
+85
+00:07:31,140 --> 00:07:44,540
+However, when you put the free fall Lagrangian into this equation, you get acceleration a = -g, just like Newton's equation of motion.
+
+86
+00:07:45,700 --> 00:08:00,000
+For simple motion like free fall, there's little merit in using the Lagrangian and Euler-Lagrange equation, but this method is convenient when dealing with more complex motion.
+
+87
+00:08:01,120 --> 00:08:20,720
+For now, just remember that the Lagrangian is a function containing all information about motion, and once you know it, you can mechanically calculate equations of motion by substituting it into the Euler-Lagrange equation.
+
+88
+00:08:22,460 --> 00:08:28,020
+Now let's see how the Lagrangian relates to symmetry.
+
+89
+00:08:29,380 --> 00:08:31,920
+Let's recall time symmetry.
+
+90
+00:08:33,300 --> 00:08:36,400
+The result was the same no matter when we did the experiment.
+
+91
+00:08:37,599 --> 00:08:39,340
+Here are two balls.
+
+92
+00:08:40,440 --> 00:08:43,800
+We drop the first one and it lands.
+
+93
+00:08:45,140 --> 00:08:49,920
+Now let's drop the second ball from the same height after a time delay.
+
+94
+00:08:51,460 --> 00:08:55,820
+Look. The two curves overlap completely.
+
+95
+00:08:57,120 --> 00:09:07,720
+The Lagrangian changes during the fall because the height changes, but the pattern of change in the Lagrangian is exactly the same for both balls.
+
+96
+00:09:08,740 --> 00:09:11,860
+In other words, when you drop it doesn't matter.
+
+97
+00:09:13,100 --> 00:09:17,780
+The Lagrangian is determined only by the time elapsed since the fall began.
+
+98
+00:09:19,060 --> 00:09:23,040
+The Lagrangian doesn't directly contain time t.
+
+99
+00:09:24,260 --> 00:09:30,720
+That's because both gravitational acceleration g and mass m are the same whenever you measure them.
+
+100
+00:09:31,720 --> 00:09:35,560
+This is the mathematical identity of time symmetry.
+
+101
+00:09:36,720 --> 00:09:43,160
+The Lagrangian not depending on time and having time symmetry mean the same thing.
+
+102
+00:09:45,160 --> 00:09:50,299
+Now let's see how conserved quantities emerge from symmetry.
+
+103
+00:09:51,480 --> 00:09:55,340
+Consider the equation of the Lagrangian differentiated with respect to time.
+
+104
+00:09:56,360 --> 00:09:59,040
+Pay attention to the last term.
+
+105
+00:10:00,400 --> 00:10:06,760
+This represents how much the Lagrangian directly depends on time.
+
+106
+00:10:08,300 --> 00:10:10,280
+When there is time symmetry,
+
+107
+00:10:10,900 --> 00:10:14,120
+that is, when the result is the same no matter when you experiment,
+
+108
+00:10:15,020 --> 00:10:16,680
+this term becomes zero.
+
+109
+00:10:17,880 --> 00:10:21,140
+Calculating under that condition,
+
+110
+00:10:22,300 --> 00:10:23,480
+we get this equation.
+
+111
+00:10:24,820 --> 00:10:27,060
+The time derivative being zero means
+
+112
+00:10:27,520 --> 00:10:30,460
+the contents of the brackets don't change over time.
+
+113
+00:10:31,480 --> 00:10:34,080
+In other words, a conserved quantity exists.
+
+114
+00:10:35,260 --> 00:10:38,240
+Let's verify what this conserved quantity actually is.
+
+115
+00:10:39,320 --> 00:10:43,520
+Substituting the free fall Lagrangian and calculating,
+
+116
+00:10:45,100 --> 00:10:49,900
+½mq'² is kinetic energy,
+
+117
+00:10:50,700 --> 00:10:58,320
+and mgq is potential energy. You can see it's the sum of kinetic and potential energy.
+
+118
+00:10:59,279 --> 00:11:08,460
+This is exactly energy. What's important here is that we didn't use any experimental results or physical intuition.
+
+119
+00:11:09,500 --> 00:11:18,400
+The conservation of energy is derived solely from the mathematical condition that the Lagrangian doesn't change with time.
+
+120
+00:11:19,500 --> 00:11:23,560
+Conservation laws necessarily follow from symmetry.
+
+121
+00:11:24,100 --> 00:11:26,800
+This is the power of Noether's theorem.
+
+122
+00:11:28,300 --> 00:11:30,460
+And what makes Noether's theorem remarkable
+
+123
+00:11:31,040 --> 00:11:34,860
+is that she proved this holds for all symmetries.
+
+124
+00:11:35,980 --> 00:11:38,920
+For example, let's consider spatial symmetry.
+
+125
+00:11:39,920 --> 00:11:43,560
+When the Lagrangian doesn't depend on position x,
+
+126
+00:11:44,060 --> 00:11:48,940
+when two objects of equal mass collide, their velocities are exchanged.
+
+127
+00:11:49,960 --> 00:11:54,000
+But the sum of the two momenta always remains constant.
+
+128
+00:11:55,020 --> 00:11:57,200
+This is the conservation of momentum.
+
+129
+00:11:58,360 --> 00:12:01,320
+Let's look at another one: rotational symmetry.
+
+130
+00:12:02,380 --> 00:12:08,579
+When the Lagrangian doesn't depend on angle θ, like Earth orbiting the Sun,
+
+131
+00:12:09,240 --> 00:12:15,140
+Earth moves faster when close and slower when far from the Sun.
+
+132
+00:12:16,380 --> 00:12:20,600
+But the area swept in equal times is always the same.
+
+133
+00:12:21,860 --> 00:12:27,600
+This is Kepler's second law, also known as the conservation of angular momentum.
+
+134
+00:12:28,560 --> 00:12:30,680
+They all have the same structure.
+
+135
+00:12:32,000 --> 00:12:40,060
+Today we've seen that shifting in time, shifting sideways, or rotating doesn't change the result.
+
+136
+00:12:41,260 --> 00:12:48,460
+Such symmetries that remain unchanged under shifting operations always have corresponding conserved quantities.
+
+137
+00:12:49,920 --> 00:12:53,760
+These conserved quantities are called Noether charges.
+
+138
+00:12:54,940 --> 00:13:01,640
+Energy, momentum, and angular momentum are all specific examples of Noether charges.
+
+139
+00:13:03,100 --> 00:13:07,060
+Noether's theorem plays an active role in even broader domains.
+
+140
+00:13:07,960 --> 00:13:11,940
+In relativity, time and space are treated in a unified way.
+
+141
+00:13:12,760 --> 00:13:16,759
+There, energy and momentum are also combined,
+
+142
+00:13:17,180 --> 00:13:25,460
+and from spacetime symmetry, conservation laws for a physical quantity called the energy-momentum tensor are derived.
+
+143
+00:13:26,680 --> 00:13:33,840
+In particle physics, charge conservation is derived from a special symmetry called gauge symmetry.
+
+144
+00:13:35,020 --> 00:13:41,439
+Noether's theorem is a very important foundation that plays a role in various areas of physics.
+
+145
+00:13:44,660 --> 00:13:56,280
+In today's video, we introduced the world of Noether's theorem—simple yet profoundly deep—which states that where there is symmetry, there is a conservation law.
+
+146
+00:13:57,480 --> 00:14:03,220
+I hope you got a sense of the fascinating physics hidden behind the obvious.
+
+147
+00:14:04,220 --> 00:14:07,400
+Until the next video, take care!
+
