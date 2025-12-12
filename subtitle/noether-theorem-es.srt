@@ -1,0 +1,588 @@
+1
+00:00:00,640 --> 00:00:08,180
+Cuando dejas caer dos bolas desde la misma altura, siempre tocan el suelo a la misma velocidad, ¿verdad?
+
+2
+00:00:09,540 --> 00:00:15,980
+Este es un fenómeno que parece obvio, demostrado desde la época de Galileo.
+
+3
+00:00:16,939 --> 00:00:28,460
+Esto se puede derivar de la ley de conservación de la energía, que establece que la suma de la energía potencial y la energía cinética siempre permanece constante.
+
+4
+00:00:29,940 --> 00:00:33,820
+Pero, ¿por qué se conserva la energía?
+
+5
+00:00:35,040 --> 00:00:41,500
+Como se llama ley, podría parecer que es algo dado por sentado en la física.
+
+6
+00:00:42,920 --> 00:00:52,640
+En realidad, detrás de esta obviedad se esconde la simetría, uno de los conceptos más importantes de la física.
+
+7
+00:00:53,840 --> 00:00:58,520
+El teorema de Noether, que conecta la simetría con las leyes de conservación.
+
+8
+00:00:59,220 --> 00:01:01,460
+Explorémoslo juntos.
+
+9
+00:01:04,159 --> 00:01:06,340
+La respuesta a esta pregunta viene de
+
+10
+00:01:06,800 --> 00:01:11,320
+el teorema de Noether, descubierto por la matemática Emmy Noether.
+
+11
+00:01:12,380 --> 00:01:16,300
+Lo que Noether descubrió se puede expresar en una sola frase.
+
+12
+00:01:16,980 --> 00:01:20,860
+Pero es un teorema revolucionario y fundamental.
+
+13
+00:01:21,780 --> 00:01:24,460
+Donde hay simetría, hay una ley de conservación.
+
+14
+00:01:25,200 --> 00:01:27,200
+Quizás esto todavía no tenga sentido.
+
+15
+00:01:28,320 --> 00:01:31,420
+Vamos a desentrañar el significado de este teorema
+
+16
+00:01:32,070 --> 00:01:34,840
+usando el ejemplo más simple: la caída libre.
+
+17
+00:01:35,560 --> 00:01:37,780
+Comencemos con un experimento.
+
+18
+00:01:38,380 --> 00:01:42,480
+Colocamos una bola a una altura H sobre el suelo.
+
+19
+00:01:43,680 --> 00:01:47,340
+Durante la caída, dos tipos de energía están cambiando.
+
+20
+00:01:48,439 --> 00:01:50,180
+Primero, la energía potencial.
+
+21
+00:01:50,880 --> 00:01:55,000
+Cuanto más alto está algo, más energía potencial tiene.
+
+22
+00:01:55,980 --> 00:01:58,600
+En fórmula, es mgh.
+
+23
+00:02:00,319 --> 00:02:02,080
+Y luego la energía cinética.
+
+24
+00:02:02,900 --> 00:02:06,080
+Cuanto más rápido se mueve algo, más energía tiene.
+
+25
+00:02:06,980 --> 00:02:10,979
+En fórmula, es ½mv².
+
+26
+00:02:12,540 --> 00:02:15,480
+Al caer, la energía potencial disminuye
+
+27
+00:02:15,940 --> 00:02:18,000
+y la energía cinética aumenta.
+
+28
+00:02:19,020 --> 00:02:22,840
+Pero la suma de las dos siempre permanece constante.
+
+29
+00:02:24,300 --> 00:02:30,120
+La suma de la energía potencial y cinética no cambia durante el movimiento.
+
+30
+00:02:31,120 --> 00:02:33,520
+Esta es la ley de conservación de la energía.
+
+31
+00:02:35,040 --> 00:02:41,340
+Cuando toca el suelo, la energía potencial se vuelve cero y toda se convierte en energía cinética.
+
+32
+00:02:42,620 --> 00:02:47,300
+En este punto, la velocidad se puede calcular como √2gh.
+
+33
+00:02:48,600 --> 00:02:52,100
+Pero, ¿por qué se conserva la energía?
+
+34
+00:02:53,080 --> 00:02:55,580
+Aquí comienza el tema principal de hoy.
+
+35
+00:02:57,300 --> 00:03:01,660
+Pensemos en un hecho simple pero importante.
+
+36
+00:03:02,880 --> 00:03:06,360
+Dejemos caer esta bola hoy a medianoche.
+
+37
+00:03:07,300 --> 00:03:11,000
+La velocidad al tocar el suelo es √2gh.
+
+38
+00:03:12,420 --> 00:03:14,740
+¿Y qué pasa mañana a las 6 de la mañana?
+
+39
+00:03:15,940 --> 00:03:18,240
+No hace falta decirlo, el resultado es el mismo.
+
+40
+00:03:18,940 --> 00:03:21,960
+No importa a qué hora hagas el experimento, el resultado no cambia.
+
+41
+00:03:23,040 --> 00:03:26,240
+El resultado no se ve afectado por cuándo lo haces.
+
+42
+00:03:27,140 --> 00:03:29,240
+Esto es la simetría temporal.
+
+43
+00:03:30,500 --> 00:03:36,300
+Usando un lenguaje más técnico, "obtener el mismo resultado sin importar cuándo"
+
+44
+00:03:36,960 --> 00:03:41,040
+se puede describir como ser simétrico respecto al tiempo.
+
+45
+00:03:41,780 --> 00:03:44,900
+Podrías pensar que esto es obvio.
+
+46
+00:03:45,940 --> 00:03:53,440
+Pero el teorema de Noether nos dice que esta simetría temporal es lo que da origen a la conservación de la energía.
+
+47
+00:03:55,280 --> 00:03:58,140
+El resultado era el mismo sin importar cuándo cambiáramos el tiempo.
+
+48
+00:03:59,620 --> 00:04:02,420
+¿Qué pasa si cambiamos la altura?
+
+49
+00:04:03,960 --> 00:04:09,060
+Cuando se deja caer desde una altura H, la velocidad era √2gh.
+
+50
+00:04:10,500 --> 00:04:16,100
+Si se deja caer desde una posición un poco más alta, la velocidad al tocar el suelo aumenta un poco.
+
+51
+00:04:16,940 --> 00:04:21,320
+¿Espera, el resultado cambia cuando la altura es diferente?
+
+52
+00:04:22,300 --> 00:04:26,580
+Eso significa que no hay simetría en la dirección vertical.
+
+53
+00:04:27,640 --> 00:04:28,260
+¿Por qué?
+
+54
+00:04:29,520 --> 00:04:32,160
+Es por la gravedad de la Tierra.
+
+55
+00:04:32,860 --> 00:04:37,800
+La gravedad de la Tierra cambia la energía potencial dependiendo de la altura.
+
+56
+00:04:38,500 --> 00:04:42,320
+Por eso el espacio no es uniforme en la dirección vertical.
+
+57
+00:04:43,680 --> 00:04:45,300
+Pero espera un momento.
+
+58
+00:04:46,320 --> 00:04:48,920
+Desplacemos la bola horizontalmente.
+
+59
+00:04:50,020 --> 00:04:53,920
+Como la gravedad actúa uniformemente hacia abajo,
+
+60
+00:04:54,560 --> 00:04:57,460
+el resultado de la caída no cambia cuando se desplaza lateralmente.
+
+61
+00:04:58,500 --> 00:05:02,139
+Esto significa que hay simetría en la dirección horizontal.
+
+62
+00:05:03,300 --> 00:05:08,360
+La gravedad rompe la simetría espacial en la dirección vertical.
+
+63
+00:05:09,160 --> 00:05:15,000
+Y en direcciones sin simetría, no hay ley de conservación correspondiente.
+
+64
+00:05:15,900 --> 00:05:21,340
+Por el contrario, las leyes de conservación surgen donde hay simetría.
+
+65
+00:05:22,380 --> 00:05:25,740
+Ahora organicemos lo que hemos aprendido hasta ahora.
+
+66
+00:05:27,060 --> 00:05:31,600
+En la caída libre, el resultado es el mismo sin importar cuándo la dejes caer.
+
+67
+00:05:32,240 --> 00:05:42,260
+Es decir, hay simetría temporal. Y la suma de la energía potencial y cinética es constante.
+
+68
+00:05:43,419 --> 00:05:52,580
+¿Cómo se conectan estos dos hechos? El teorema de Noether lo explica.
+
+69
+00:05:53,840 --> 00:05:59,660
+Usaremos un poco de matemáticas, pero lo explicaré para que puedan captar el concepto.
+
+70
+00:06:01,000 --> 00:06:06,620
+Para llegar al teorema de Noether, introduzcamos una función llamada lagrangiano.
+
+71
+00:06:07,860 --> 00:06:12,780
+Este lagrangiano contiene toda la información sobre el movimiento de un objeto.
+
+72
+00:06:14,140 --> 00:06:18,980
+Omitiendo la derivación, el lagrangiano se calcula de la siguiente manera.
+
+73
+00:06:20,300 --> 00:06:24,520
+T es la energía cinética, V es la energía potencial.
+
+74
+00:06:25,800 --> 00:06:30,040
+El lagrangiano L es la diferencia entre estas dos energías.
+
+75
+00:06:31,660 --> 00:06:34,220
+Podrías preguntarte, ¿por qué resta?
+
+76
+00:06:35,220 --> 00:06:39,100
+Por hoy, piensa en ello como una función conveniente que calcula
+
+77
+00:06:39,670 --> 00:06:44,040
+la diferencia entre energía cinética y potencial para describir el movimiento.
+
+78
+00:06:45,580 --> 00:06:51,000
+Una vez determinado el lagrangiano, podemos calcular exactamente cómo se mueve un objeto.
+
+79
+00:06:52,480 --> 00:06:55,459
+Veamos el lagrangiano para la caída libre.
+
+80
+00:06:56,780 --> 00:07:02,840
+Mientras la bola cae, puedes ver cómo cambia el valor de este lagrangiano L.
+
+81
+00:07:04,560 --> 00:07:09,980
+Pero, ¿cómo se conecta el lagrangiano con el movimiento del objeto?
+
+82
+00:07:11,300 --> 00:07:17,240
+Dije que una vez determinado el lagrangiano, podemos calcular exactamente cómo se mueve un objeto.
+
+83
+00:07:17,990 --> 00:07:25,500
+Lo que conecta el lagrangiano con el movimiento es una ecuación llamada ecuación de Euler-Lagrange.
+
+84
+00:07:26,500 --> 00:07:30,240
+Parece un poco compleja, pero no profundizaremos en ella hoy.
+
+85
+00:07:31,140 --> 00:07:44,540
+Sin embargo, cuando pones el lagrangiano de caída libre en esta ecuación, obtienes la aceleración a = -g, igual que en la ecuación de movimiento de Newton.
+
+86
+00:07:45,700 --> 00:08:00,000
+Para movimientos simples como la caída libre, usar el lagrangiano y la ecuación de Euler-Lagrange no tiene mucha ventaja, pero este método es conveniente cuando se trata de movimientos más complejos.
+
+87
+00:08:01,120 --> 00:08:20,720
+Por ahora, solo recuerda que el lagrangiano es una función que contiene toda la información sobre el movimiento, y una vez que lo conoces, puedes calcular mecánicamente las ecuaciones de movimiento sustituyéndolo en la ecuación de Euler-Lagrange.
+
+88
+00:08:22,460 --> 00:08:28,020
+Ahora veamos cómo se relaciona el lagrangiano con la simetría.
+
+89
+00:08:29,380 --> 00:08:31,920
+Recordemos la simetría temporal.
+
+90
+00:08:33,300 --> 00:08:36,400
+El resultado era el mismo sin importar cuándo hiciéramos el experimento.
+
+91
+00:08:37,599 --> 00:08:39,340
+Aquí hay dos bolas.
+
+92
+00:08:40,440 --> 00:08:43,800
+Dejamos caer la primera y aterriza.
+
+93
+00:08:45,140 --> 00:08:49,920
+Ahora dejemos caer la segunda bola desde la misma altura después de un retraso.
+
+94
+00:08:51,460 --> 00:08:55,820
+Mira. Las dos curvas se superponen completamente.
+
+95
+00:08:57,120 --> 00:09:07,720
+El lagrangiano cambia durante la caída porque la altura cambia, pero el patrón de cambio del lagrangiano es exactamente el mismo para ambas bolas.
+
+96
+00:09:08,740 --> 00:09:11,860
+En otras palabras, no importa cuándo la dejes caer.
+
+97
+00:09:13,100 --> 00:09:17,780
+El lagrangiano está determinado solo por el tiempo transcurrido desde que comenzó la caída.
+
+98
+00:09:19,060 --> 00:09:23,040
+El lagrangiano no contiene directamente el tiempo t.
+
+99
+00:09:24,260 --> 00:09:30,720
+Esto es porque tanto la aceleración gravitacional g como la masa m son iguales en cualquier momento que las midas.
+
+100
+00:09:31,720 --> 00:09:35,560
+Esta es la identidad matemática de la simetría temporal.
+
+101
+00:09:36,720 --> 00:09:43,160
+Que el lagrangiano no dependa del tiempo y tener simetría temporal significan lo mismo.
+
+102
+00:09:45,160 --> 00:09:50,299
+Ahora veamos cómo surgen las cantidades conservadas de la simetría.
+
+103
+00:09:51,480 --> 00:09:55,340
+Considera la ecuación del lagrangiano diferenciado respecto al tiempo.
+
+104
+00:09:56,360 --> 00:09:59,040
+Presta atención al último término.
+
+105
+00:10:00,400 --> 00:10:06,760
+Esto representa cuánto depende directamente el lagrangiano del tiempo.
+
+106
+00:10:08,300 --> 00:10:10,280
+Cuando hay simetría temporal,
+
+107
+00:10:10,900 --> 00:10:14,120
+es decir, cuando el resultado es el mismo sin importar cuándo experimentes,
+
+108
+00:10:15,020 --> 00:10:16,680
+este término se vuelve cero.
+
+109
+00:10:17,880 --> 00:10:21,140
+Calculando bajo esa condición,
+
+110
+00:10:22,300 --> 00:10:23,480
+obtenemos esta ecuación.
+
+111
+00:10:24,820 --> 00:10:27,060
+Que la derivada temporal sea cero significa
+
+112
+00:10:27,520 --> 00:10:30,460
+que el contenido de los paréntesis no cambia con el tiempo.
+
+113
+00:10:31,480 --> 00:10:34,080
+En otras palabras, existe una cantidad conservada.
+
+114
+00:10:35,260 --> 00:10:38,240
+Verifiquemos qué es realmente esta cantidad conservada.
+
+115
+00:10:39,320 --> 00:10:43,520
+Sustituyendo el lagrangiano de caída libre y calculando,
+
+116
+00:10:45,100 --> 00:10:49,900
+½mq'² es la energía cinética,
+
+117
+00:10:50,700 --> 00:10:58,320
+y mgq es la energía potencial. Puedes ver que es la suma de la energía cinética y potencial.
+
+118
+00:10:59,279 --> 00:11:08,460
+Esto es exactamente la energía. Lo importante aquí es que no usamos ningún resultado experimental ni intuición física.
+
+119
+00:11:09,500 --> 00:11:18,400
+La conservación de la energía se deriva únicamente de la condición matemática de que el lagrangiano no cambia con el tiempo.
+
+120
+00:11:19,500 --> 00:11:23,560
+Las leyes de conservación siguen necesariamente de la simetría.
+
+121
+00:11:24,100 --> 00:11:26,800
+Este es el poder del teorema de Noether.
+
+122
+00:11:28,300 --> 00:11:30,460
+Y lo que hace notable al teorema de Noether
+
+123
+00:11:31,040 --> 00:11:34,860
+es que ella demostró que esto vale para todas las simetrías.
+
+124
+00:11:35,980 --> 00:11:38,920
+Por ejemplo, consideremos la simetría espacial.
+
+125
+00:11:39,920 --> 00:11:43,560
+Cuando el lagrangiano no depende de la posición x,
+
+126
+00:11:44,060 --> 00:11:48,940
+cuando dos objetos de igual masa chocan, sus velocidades se intercambian.
+
+127
+00:11:49,960 --> 00:11:54,000
+Pero la suma de los dos momentos siempre permanece constante.
+
+128
+00:11:55,020 --> 00:11:57,200
+Esta es la conservación del momento lineal.
+
+129
+00:11:58,360 --> 00:12:01,320
+Veamos otra: la simetría rotacional.
+
+130
+00:12:02,380 --> 00:12:08,579
+Cuando el lagrangiano no depende del ángulo θ, como la Tierra orbitando el Sol,
+
+131
+00:12:09,240 --> 00:12:15,140
+la Tierra se mueve más rápido cuando está cerca y más lento cuando está lejos del Sol.
+
+132
+00:12:16,380 --> 00:12:20,600
+Pero el área barrida en tiempos iguales es siempre la misma.
+
+133
+00:12:21,860 --> 00:12:27,600
+Esta es la segunda ley de Kepler, también conocida como la conservación del momento angular.
+
+134
+00:12:28,560 --> 00:12:30,680
+Todas tienen la misma estructura.
+
+135
+00:12:32,000 --> 00:12:40,060
+Hoy hemos visto que desplazar en el tiempo, desplazar lateralmente o rotar no cambia el resultado.
+
+136
+00:12:41,260 --> 00:12:48,460
+Tales simetrías que permanecen sin cambios bajo operaciones de desplazamiento siempre tienen cantidades conservadas correspondientes.
+
+137
+00:12:49,920 --> 00:12:53,760
+Estas cantidades conservadas se llaman cargas de Noether.
+
+138
+00:12:54,940 --> 00:13:01,640
+La energía, el momento lineal y el momento angular son todos ejemplos específicos de cargas de Noether.
+
+139
+00:13:03,100 --> 00:13:07,060
+El teorema de Noether juega un papel activo en dominios aún más amplios.
+
+140
+00:13:07,960 --> 00:13:11,940
+En la relatividad, el tiempo y el espacio se tratan de manera unificada.
+
+141
+00:13:12,760 --> 00:13:16,759
+Allí, la energía y el momento también se combinan,
+
+142
+00:13:17,180 --> 00:13:25,460
+y de la simetría del espacio-tiempo se derivan leyes de conservación para una cantidad física llamada tensor energía-momento.
+
+143
+00:13:26,680 --> 00:13:33,840
+En física de partículas, la conservación de la carga se deriva de una simetría especial llamada simetría de gauge.
+
+144
+00:13:35,020 --> 00:13:41,439
+El teorema de Noether es un fundamento muy importante que juega un papel en varias áreas de la física.
+
+145
+00:13:44,660 --> 00:13:56,280
+En el video de hoy, presentamos el mundo del teorema de Noether —simple pero profundamente profundo— que establece que donde hay simetría, hay una ley de conservación.
+
+146
+00:13:57,480 --> 00:14:03,220
+Espero que hayas percibido la fascinante física oculta detrás de lo obvio.
+
+147
+00:14:04,220 --> 00:14:07,400
+¡Hasta el próximo video, cuídense!
+
